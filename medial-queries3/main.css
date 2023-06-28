@@ -1,3 +1,41 @@
 body {
   background: peachpuff;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px blueviolet;
+  text-align: center;
+  flex-direction: row;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+ .a {
+  
+  margin: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .container {
+  flex-direction: column;
+
+  }
+
+
+  .a{
+    flex-basis: 100%;
+    border: 1px blueviolet;
+
+  }
+
+  
+
+
+}
+

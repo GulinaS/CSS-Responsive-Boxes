@@ -1,3 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
 body {
   background: papayawhip;
+ 
 }
+
+
+
+.container {
+  display: block;
+  flex-wrap: wrap;
+  border:2px solid black;
+ 
+}
+.a {
+  display: flex;
+  margin: 10px;
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.b {
+  display: flex;
+  margin: 10px;
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+.c {
+  display: flex;
+  margin: 10px;
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+
+.d {
+  display: flex;
+  margin: 10px;
+  background-color: rosybrown;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+
+
+.e {
+
+  margin: 10px;
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+
+
+.f {
+  flex: 1 0 200px; /* Adjust the width as per your requirement */
+  margin: 10px;
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+.container {
+
+  display: flex;
+  border: 1px solid bisque;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
