@@ -2,22 +2,70 @@ body {
   background: peachpuff;
 }
 .container {
-  display: flex;
+  display: row;
   flex-wrap: wrap;
   border: 1px blueviolet;
   text-align: center;
   flex-direction: row;
-  min-width: 100%;
-  min-height: 100%;
+  min-height:100vh ;
 }
 
- .a {
+ /* .a {
   
   margin: 10px;
   background-color: lightgray;
   padding: 10px;
   
+} */
+
+.a {
+
+  padding: 5px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 10vh;
+  margin: 10px;
+  background-color: aquamarine;
+
 }
+
+ .b, .c, .d {
+
+  padding: 5px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 10vh;
+  margin: 10px;
+  background-color:darkblue ;
+
+
+ }
+
+ .e, .f, .g, .h {
+
+  padding: 5px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 10vh;;
+  margin: 10px;
+  background-color:darkblue ;
+  
+  
+
+
+
+ }
+ .h {
+  background-color: lightgrey;
+  padding: 20px;
+  min-height: 10vh;
+  width:50vh ;
+  align-content: right;
+
+
+
+ }
+
 
 
 @media screen and (max-width: 600px) {

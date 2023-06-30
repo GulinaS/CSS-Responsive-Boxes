@@ -24,7 +24,7 @@
 
 
 
- .a, .c {
+ .a {
  
    flex-grow: 1; 
    background-color: aqua;
@@ -34,11 +34,12 @@
   
 
    
-.b {
+.b, .c {
   flex: 100%;
   margin: 5px;
-  min-height: 50vh;
+  min-height: 30vh;
   background-color:rgb(104, 104, 132);
+  
    
 } 
 .c {

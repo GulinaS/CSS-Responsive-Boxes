@@ -8,86 +8,122 @@ body {
 
 
 .container {
-  display: block;
-  flex-wrap: wrap;
-  border:2px solid black;
- 
-}
-.a {
+  
   display: flex;
-  margin: 10px;
-  background-color: bisque;
-  padding: 20px;
-  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 100vh;
+
 }
 
+.a {
+
+
+background-color: aquamarine;
+margin-bottom: 10px;
+margin-top: 10px;
+flex:10%;
+padding: 5px;
+min-height:10vh;
+
+}
 
 .b {
+   flex:10%;
+   margin-bottom: 10px;
+   margin-right: 10px; 
+   min-height:10vh;
+   padding: 5px; 
+   background-color: brown;
+
+}
+ 
+
+  .c, .d, .e {
+  
+  padding: 5px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 25vh;
+  margin: 10px;
+  background-color: #451328;
+  
+  } 
+   
+
+    .row  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+   
+    }
+    /* .aside {
+
+      justify-content: flex-end;
+      align-items: flex-end;
+
+    }  */
+
+
+
+
+.aside {
+  flex-basis: 15%;
+   min-width: 15%; 
   display: flex;
-  margin: 10px;
-  background-color: blue;
-  padding: 20px;
-  text-align: center;
-}
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+} 
 
-.c {
-  display: flex;
-  margin: 10px;
-  background-color: red;
-  padding: 20px;
-  text-align: center;
+ .f {
 
-
-}
-
-
-.d {
-  display: flex;
-  margin: 10px;
-  background-color: rosybrown;
-  padding: 20px;
-  text-align: center;
-
-
-}
-
-
-
-.e {
-
-  margin: 10px;
-  background-color: grey;
-  padding: 20px;
-  text-align: center;
-
-
-}
-
-
-
-.f {
-  flex: 1 0 200px; /* Adjust the width as per your requirement */
-  margin: 10px;
-  background-color: orange;
-  padding: 20px;
-  text-align: center;
-
-
-}
+  align-items: stretch; 
+  margin-bottom: 20px;
+  min-height: 10vh;
+  padding: 50px;
+  background-color: #3e8b95;
+ 
+} 
 
 @media screen and (min-width: 600px) {
 
-.container {
 
-  display: flex;
-  border: 1px solid bisque;
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: stretch;
+    
 
 
+
+  }
+
+
+  .c, .d, .e {
+
+    flex-direction: left;
+
+
+
+  }
+
+  .f {
+    min-height: 10vh;
+   align-content: flex-end;
+
+
+  }
+
+  
 }
 
 
 
-}
+
 
 
 
