@@ -1,14 +1,14 @@
 body {
   background: peachpuff;
 }
-.container {
+/* .container {
   display: row;
   flex-wrap: wrap;
   border: 1px blueviolet;
   text-align: center;
   flex-direction: row;
   min-height:100vh ;
-}
+} */
 
  /* .a {
   
@@ -17,8 +17,22 @@ body {
   padding: 10px;
   
 } */
+           
+  .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  min-width: width 100vh;
+  min-height: 50vh;
 
+ }
+    
+/* 
 .a {
+
+
+  min-height: 100vh;
 
   padding: 5px;
   flex: 10%;  
@@ -27,9 +41,19 @@ body {
   margin: 10px;
   background-color: aquamarine;
 
-}
+} */
+ .a{
+  background-color: lightgrey;
+  padding: 20px;
+  min-height: 10vh;
+  width:100vh ;
+  align-content: right;
 
- .b, .c, .d {
+
+
+ }
+
+  .b, .c, .d {
 
   padding: 5px;
   flex: 10%;  
@@ -52,9 +76,9 @@ body {
   
   
 
-
-
  }
+
+ /* }
  .h {
   background-color: lightgrey;
   padding: 20px;
@@ -64,7 +88,7 @@ body {
 
 
 
- }
+ } */
 
 
 
