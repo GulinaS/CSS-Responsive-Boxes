@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap'); */
 
 body {
   background: papayawhip;
@@ -12,8 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  min-height: 100vh;
+  min-height: 100%;
 
 }
 
@@ -31,9 +30,9 @@ min-height:10vh;
 
 .b {
    flex:10%;
-   margin-bottom: 10px;
+   /* margin-bottom: 10px; */
    margin-right: 10px; 
-   min-height:10vh;
+   min-height:30vh;
    padding: 5px; 
    background-color: brown;
 
@@ -44,9 +43,9 @@ min-height:10vh;
   
   padding: 5px;
   flex: 10%;  
-  margin-bottom: 5px;
-  min-height: 25vh;
-  margin: 10px;
+  /* margin-bottom: 5px; */
+  min-height: 30vh;
+  margin: 10px; 
   background-color: #451328;
   
   } 
@@ -55,8 +54,7 @@ min-height:10vh;
     .row  {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
    
     }
     /* .aside {
@@ -68,57 +66,62 @@ min-height:10vh;
 
 
 
-
-.aside {
-  flex-basis: 15%;
-   min-width: 15%; 
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  
-} 
-
+/* 
  .f {
 
-  align-items: stretch; 
+  /* align-items: stretch; 
   margin-bottom: 20px;
   min-height: 10vh;
-  padding: 50px;
+  padding: 50px; 
   background-color: #3e8b95;
  
-} 
+}  */
 
 @media screen and (min-width: 600px) {
 
 
   .container {
-    display: flex;
-    /* flex-direction: column; */
+    /* display: flex; */
+     /* flex-direction: column;  */
     flex-wrap: wrap;
-    align-content: stretch;
+    /* align-content: stretch; */
     
+  } 
 
+  .b {
 
+     /* margin-right: 10px;  */
+    flex: 3;
+    margin-right: 18em;
+    max-height: 20vh;
+    margin-bottom: 10px;
 
   }
 
 
   .c, .d, .e {
 
-    flex-direction: left;
+    /* flex-direction: left;  */
+     flex: 5%; 
 
 
 
   }
+
 
   .f {
-    min-height: 10vh;
-   align-content: flex-end;
+    flex:0.5% ;
+    min-height: 60vh;
+   background-color: rgb(50, 163, 175);
+   margin-bottom: 13em;
+
+   /* align-content: flex-end; */
 
 
-  }
+  } 
 
   
+
 }
 
 

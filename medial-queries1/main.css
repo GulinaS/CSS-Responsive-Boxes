@@ -12,70 +12,73 @@
  
 
  
- .container{
-
+ .container {
+  
   display: flex;
-  flex-direction: column ;
   flex-wrap: wrap;
-  justify-content: space-between;
-   min-height: 100vh;
-  
-  }
-
-
-
- .a {
- 
-   flex-grow: 1; 
-   background-color: aqua;
-   
-}                                  
-
-  
-
-   
-.b, .c {
-  flex: 100%;
-  margin: 5px;
-  min-height: 30vh;
-  background-color:rgb(104, 104, 132);
-  
-   
-} 
-.c {
-
-   flex-grow: 3; 
-   background-color: blueviolet;
-   
-} 
-
-@media screen and (min-width: 600px ) {
-  
-  .container {
-   
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-  }
-
-
- .a {
-
   width: 100%;
- 
+   flex-direction: row;
+  
+  }
+  .a {
+  
+    padding: 10px;
+    background-color: aqua;
+    flex: 100%; 
+    margin-bottom: 10px; 
+    min-height: 15vh;
+  }
+  
+  .b {
+    padding: 10px;
+    flex: 100%;
+    margin-bottom: 10px;
+    background-color:rgb(104, 104, 132);
+    min-height: 60vh;
+    
+  
+  }
+  .c {
+    padding: 10px;
+    flex: 100%;
+    min-height: 15vh;
+    background-color: blueviolet;
+  
+  }
+  
+  @media screen and (min-width: 600px) {
 
- }
+    .container{
+      flex-wrap: wrap;
+      flex-direction: column;
+    
+    }
 
- .a, .c, .d {
-  margin:16px;
+
+    .a {
+     
+     margin: 16px;
 
 
+    }
+   .b {
 
- }
+      flex: 60%; 
+      margin: 16px;
+    }
+
+    .c {
+       flex: 1%; 
+       margin: 16px;
+       /* flex-direction: column; */
+      
+    }
+  }
+
 
   
 
-}
+
  
 
 
