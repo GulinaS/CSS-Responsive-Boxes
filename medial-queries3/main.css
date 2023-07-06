@@ -1,113 +1,112 @@
 body {
   background: peachpuff;
-}
-/* .container {
-  display: row;
-  flex-wrap: wrap;
-  border: 1px blueviolet;
-  text-align: center;
-  flex-direction: row;
-  min-height:100vh ;
-} */
+  border: 1px solid rgb(19, 134, 147);
 
- /* .a {
-  
-  margin: 10px;
-  background-color: lightgray;
-  padding: 10px;
-  
-} */
+}
+
            
   .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  min-width: width 100vh;
-  min-height: 50vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    flex-direction: column;
 
  }
     
-/* 
-.a {
 
-
-  min-height: 100vh;
-
-  padding: 5px;
-  flex: 10%;  
-  margin-bottom: 5px;
-  min-height: 10vh;
-  margin: 10px;
-  background-color: aquamarine;
-
-} */
  .a{
   background-color: lightgrey;
   padding: 20px;
-  min-height: 10vh;
-  width:100vh ;
-  align-content: right;
-
-
-
- }
-
-  .b, .c, .d {
-
-  padding: 5px;
-  flex: 10%;  
-  margin-bottom: 5px;
-  min-height: 10vh;
-  margin: 10px;
-  background-color:darkblue ;
-
-
- }
-
- .e, .f, .g, .h {
-
-  padding: 5px;
-  flex: 10%;  
-  margin-bottom: 5px;
-  min-height: 10vh;;
-  margin: 10px;
-  background-color:darkblue ;
-  
-  
-
- }
-
- /* }
- .h {
-  background-color: lightgrey;
-  padding: 20px;
-  min-height: 10vh;
-  width:50vh ;
-  align-content: right;
-
-
-
- } */
-
-
-
-@media screen and (max-width: 600px) {
-
-  .container {
-  flex-direction: column;
-
-  }
-
-
-  .a{
-    flex-basis: 100%;
-    border: 1px blueviolet;
-
-  }
-
-  
-
+  flex: 10%;
+  margin: 20px;
+  min-height: 30vh;
 
 }
+
+
+ 
+
+  .b {
+
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:darkblue ;
+
+ }
+
+ .c {
+
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:rgb(178, 31, 31) 
+
+ }
+
+ .d{
+
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:rgb(176, 30, 174) 
+
+
+ }
+
+ .e {
+
+  padding: 5px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;;
+  margin: 10px;
+  background-color:rgb(50, 139, 159) ;
+  
+ }
+
+ .f{
+
+
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:rgb(36, 36, 74) 
+ }
+
+ .g {
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:darkblue 
+
+ }
+ .h {
+
+  padding: 20px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 20vh;
+  margin: 10px;
+  background-color:darkblue 
+
+
+ }
+
+ 
+ 
+
+
+
 
