@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
 body {
   background: peachpuff;
   border: 1px solid rgb(19, 134, 147);
@@ -11,97 +13,146 @@ body {
     flex-wrap: wrap;
     padding: 25px;
     flex-direction: column;
+    
 
- }
+ } 
     
 
  .a{
-  background-color: lightgrey;
+  /* background-color: lightgrey;
   padding: 20px;
-  flex: 10%;
-  margin: 20px;
-  min-height: 30vh;
-
-}
-
-
- 
-
-  .b {
+  flex: 100%; 
+  margin:16px;
+  min-height: 20vh;
+  margin-bottom: 0;
+  max-width: 100vh;  */
 
   padding: 20px;
   flex: 10%;  
   margin-bottom: 5px;
   min-height: 20vh;
   margin: 10px;
-  background-color:darkblue ;
+  background-color:rgb(102, 102, 118) 
+
+
+}
+
+.container2 {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-right: 310px;
+}
+ 
+
+
+ 
+ .container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  
+ } 
+
+ .b {
+
+  padding: 10px;
+  flex: 10%;  
+  margin-bottom: 5px;
+  min-height: 10vh;
+  margin: 10px;
+  background-color:rgb(79, 200, 202) ;
+
 
  }
 
  .c {
 
-  padding: 20px;
+  padding: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;
+  min-height: 10vh;
   margin: 10px;
   background-color:rgb(178, 31, 31) 
+  
 
  }
 
  .d{
 
-  padding: 20px;
+  padding: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;
+  min-height: 10vh;
   margin: 10px;
-  background-color:rgb(176, 30, 174) 
+  background-color:rgb(176, 30, 174)  
+  
 
 
- }
+ } 
 
  .e {
 
-  padding: 5px;
+  padding: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;;
+  min-height: 10vh;;
   margin: 10px;
   background-color:rgb(50, 139, 159) ;
   
- }
+ } 
 
  .f{
 
 
-  padding: 20px;
+  padding: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;
+  min-height: 10vh;
   margin: 10px;
-  background-color:rgb(36, 36, 74) 
+  background-color:rgb(84, 102, 166) 
  }
 
  .g {
-  padding: 20px;
+  /* min-height: 100px; */
+  padding: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;
+  min-height: 10vh;
   margin: 10px;
-  background-color:darkblue 
+  background-color:rgb(69, 207, 163) 
 
  }
- .h {
 
-  padding: 20px;
+ 
+
+ 
+ 
+ .h {
+  
+  padding-top: 10px;
   flex: 10%;  
   margin-bottom: 5px;
-  min-height: 20vh;
   margin: 10px;
-  background-color:darkblue 
+  background-color:rgb(129, 63, 159) 
+  
 
 
+ } 
+
+ @media screen and (max-width: 800px ){
+
+
+  .h {
+   flex: 12%;
+
+
+  }
+
+  
+  
  }
 
  
